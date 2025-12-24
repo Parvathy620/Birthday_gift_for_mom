@@ -19,4 +19,4 @@ The website reveals a surprise step by step — starting with a teaser message, 
 - CSS
 - Vanilla JavaScript
 
-## 📁 Folder Structure
+
