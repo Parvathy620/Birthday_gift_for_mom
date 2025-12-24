@@ -1,0 +1,6 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFB7B2" />
+  <text x="50%" y="50%" font-family="Arial" font-size="24" fill="white" dominant-baseline="middle" text-anchor="middle">Happy Birthday Mom! 💖</text>
+  <circle cx="50" cy="50" r="30" fill="#FFFFE0" opacity="0.5"/>
+  <circle cx="550" cy="350" r="40" fill="#E2F0CB" opacity="0.5"/>
+</svg>

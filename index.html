@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. Intro Screen -->
+    <section id="intro" class="section active">
+        <!-- Balloon Container -->
+        <div id="balloon-container"></div>
+
+        <h1>🎁 A surprise is waiting for you...</h1>
+        <button onclick="startSurprise()">Start the Surprise 🎂</button>
+    </section>
+
+    <!-- 2. Slideshow Section -->
+    <section id="slideshow" class="section">
+        <div id="slideshow-container">
+            <div id="slide-content">
+                <!-- Slides inserted by JS -->
+            </div>
+            <button id="next-btn" onclick="nextSlide()">Next 💖</button>
+        </div>
+    </section>
+
+    <!-- 3. Cake Section -->
+    <section id="cake-section" class="section">
+        <!-- Star Decorations -->
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+
+        <h1>Let's light the candles! 🕯️</h1>
+
+        <div class="cake-container">
+            <div class="candles">
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame"></div>
+                </div>
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame"></div>
+                </div>
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame"></div>
+                </div>
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame"></div>
+                </div>
+                <div class="candle" onclick="blowCandle(this)">
+                    <div class="flame"></div>
+                </div>
+            </div>
+
+            <!-- Multi-tier Cake -->
+            <div class="cake-tier top-tier"></div>
+            <div class="cake-tier middle-tier"></div>
+            <div class="cake-tier bottom-tier"></div>
+            <div class="plate"></div>
+        </div>
+
+        <div id="final-message">
+            Make a wish 💕 Happy Birthday!
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
